@@ -1,0 +1,14 @@
+<resources>
+    <!-- How to calculate budget Preference -->
+    <string-array name="howToCalculateBudget_entries">
+        <item>1 month before</item>
+        <item>2 months before</item>
+        <item>3 months before</item>
+    </string-array>
+
+    <string-array name="howToCalculateBudget_values">
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+    </string-array>
+</resources>

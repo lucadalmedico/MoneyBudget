@@ -1,0 +1,15 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="lockApplication"
+        app:title="@string/lockApplication" />
+
+    <ListPreference
+        app:defaultValue="1"
+        app:entries="@array/howToCalculateBudget_entries"
+        app:entryValues="@array/howToCalculateBudget_values"
+        app:key="howToCalculateBudget"
+        app:title="@string/howToCalculateBudget"
+        app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>
